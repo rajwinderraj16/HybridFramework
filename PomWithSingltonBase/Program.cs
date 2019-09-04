@@ -13,15 +13,17 @@ namespace PomWithSingltonBase
 {
     public class Program : Commonclass
     {
-        
+
         [Test]
         public void LoginTest()
         {
             //Thread.Sleep(2000);
-            //LoginPage Lg = new LoginPage();
-            //Lg.LoginPageActions();
-        }
+            LoginPage Lg = new LoginPage();
+            Lg.user();
+            Lg.Pass();
+            Lg.Logbtn();
 
-        
+
+        }
     }
 }

@@ -126,4 +126,7 @@
   <data name="Url" xml:space="preserve">
     <value>http://executeautomation.com/demosite/Login.html</value>
   </data>
+  <data name="Reports" xml:space="preserve">
+    <value>C:\Users\admin\source\repos\PomWithSingltonBase\PomWithSingltonBase\ReportPath</value>
+  </data>
 </root>

@@ -70,6 +70,15 @@ namespace PomWithSingltonBase.Configuration {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to C:\Users\admin\source\repos\PomWithSingltonBase\PomWithSingltonBase\ReportPath.
+        /// </summary>
+        internal static string Reports {
+            get {
+                return ResourceManager.GetString("Reports", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to C:\Users\admin\source\repos\PomWithSingltonBase\PomWithSingltonBase\ScreenShots\MyScreenshot.jpeg.
         /// </summary>
         internal static string screenShots {

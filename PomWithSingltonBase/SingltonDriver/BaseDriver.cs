@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,13 +8,15 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using PomWithSingltonBase.Configuration;
+using PomWithSingltonBase.SingltonDriver;
 
 namespace PomWithSingltonBase.SingltonDriver
 {
-     class BaseDriver
+    class BaseDriver
     {
         public static IWebDriver driver = null;
-      
+
+
 
         public static void Initialization()
         {
@@ -42,11 +45,11 @@ namespace PomWithSingltonBase.SingltonDriver
             driver.Close();
             driver = null;
         }
+
+
+
+        
     }
+
+
 }
-
-
-
-
-    
-
